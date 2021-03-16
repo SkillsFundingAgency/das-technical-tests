@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+    <PackageReference Include="nunit" Version="3.13.1" />
+    <PackageReference Include="nunit3testadapter" Version="3.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SFA.DAS.Technical.Test.Infrastructure\SFA.DAS.Technical.Test.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

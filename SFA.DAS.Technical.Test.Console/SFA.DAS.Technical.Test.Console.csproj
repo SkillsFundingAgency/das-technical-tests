@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SFA.DAS.Technical.Test.Infrastructure\SFA.DAS.Technical.Test.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>SFA.DAS.Technical.Test</RootNamespace>
+  </PropertyGroup>
+
+</Project>
